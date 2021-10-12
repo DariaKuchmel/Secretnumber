@@ -30,11 +30,12 @@ int main()
 	} while (secret_number != guess);
 	cout << "You are winner!" << endl;
 	cout << "Number of attempts  " << s << endl;
-	double factorial = 1;     // âû÷èñëåíèå ôàêòîğèàëà
+	double factorial = 1;     // Ã¢Ã»Ã·Ã¨Ã±Ã«Ã¥Ã­Ã¨Ã¥ Ã´Ã ÃªÃ²Ã®Ã°Ã¨Ã Ã«Ã 
 	for (int i = 2; i <= secret_number; i++)
 	{
 		factorial *= i;
 	}
 	cout << "Factorial " << secret_number << "=" << factorial << endl;
+	return;
 
 }
